@@ -7,17 +7,17 @@ Development of a traffic microsimulation model using SUMO and TraCI to analyse t
 
 ### 🛠️ Key Responsibilities
 - Built a four-arm signalised intersection network in SUMO  
-- Defined nodes, edges, connections, and traffic routes  
-- Developed traffic demand scenarios and routing logic  
-- Controlled traffic signals dynamically using TraCI (Python)  
+- Defined nodes, edges, connections, and routing logic  
+- Developed traffic demand scenarios  
+- Controlled signal phases dynamically using TraCI (Python)  
 - Extracted trip, speed, and flow data from simulation outputs  
 
 ---
 
 ### 📈 Engineering Value
 - Enabled performance comparison of traffic control strategies  
-- Provided data-driven insights into congestion and flow efficiency  
-- Demonstrated application of simulation for transport decision-making  
+- Provided data-driven insight into congestion and flow efficiency  
+- Demonstrated practical application of simulation in transport engineering  
 
 ---
 
@@ -25,34 +25,36 @@ Development of a traffic microsimulation model using SUMO and TraCI to analyse t
 - Traffic modelling and microsimulation  
 - Python scripting (TraCI API)  
 - Data extraction and analysis  
-- Systems modelling and optimisation  
+- Systems modelling  
 
 ---
 
 ### 🖼️ Sample Work
 
-![Simulation Network](images/network-view.png)  
+![Network View](network-view.png)  
 *SUMO network showing four-arm signalised intersection layout*
 
-![Signal Control Logic](images/signal-control.png)  
-*Traffic signal phase control using TraCI scripting*
+![Signal Control](signal-control.png)  
+*Traffic signal control using TraCI-based Python scripting*
 
-![Output Analysis](images/output-graph.png)  
-*Example output showing traffic performance metrics (speed/flow/travel time)*
+![Output Analysis](output-graph.png)  
+*Simulation output showing performance metrics such as speed and flow*
 
 ---
 
 ### ⚙️ Tools
-SUMO-GUI • TraCI (Python) • XML (network, routes, outputs)
+SUMO-GUI • TraCI (Python) • XML configuration files  
 
 ---
 
-### 📁 Repository Structure
+### 📁 Files Included
 
-- `scripts/` → Python scripts for TraCI control  
-- `configs/` → SUMO configuration files (.sumocfg, .net.xml, .rou.xml)  
-- `outputs/` → Simulation outputs (tripinfo, detector data)  
-- `images/` → Screenshots and analysis visuals  
+- `traci_signal_control.py` → Python script controlling simulation  
+- `model.sumocfg` → Simulation configuration file  
+- `network.net.xml` → Network definition  
+- `routes.rou.xml` → Traffic demand and routing  
+- `tripinfo.xml` → Simulation output (optional)  
+- `results.csv` → Processed results (optional)  
 
 ---
 
