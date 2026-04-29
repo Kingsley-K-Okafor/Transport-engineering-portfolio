@@ -18,7 +18,7 @@ The project demonstrates the application of simulation techniques to understand 
 Development of a signalised intersection model with dynamic control and performance analysis.
 
 👉 View Project:  
-https://github.com/YOUR-USERNAME/transport-simulation-portfolio/tree/main/sumo-traci-traffic-microsimulation
+https://github.com/Kingsley-K-Okafor/Transport-engineering-portfolio/tree/main/sumo-traci-traffic-microsimulation
 
 ---
 
