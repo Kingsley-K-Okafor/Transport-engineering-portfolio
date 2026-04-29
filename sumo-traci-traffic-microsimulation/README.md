@@ -80,13 +80,12 @@ python run_simulation.py
 ![Network View](network-view.png)  
 *SUMO network showing four-arm signalised intersection layout*
 
-![Signal Control](signal-control.png)  
+![Signal Script](traci_signal_control.py.png)  
 *Traffic signal control using TraCI-based Python scripting*
 
-![Output Analysis](output-graph.png)  
+![Output Analysis](signal-control.png.jpg)  
 *Simulation output showing performance metrics such as speed and flow*
 
 ---
-
 ### 📌 Note
 This project demonstrates simulation workflows and analysis. Full datasets and extended models available on request.
