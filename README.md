@@ -86,16 +86,6 @@ python run_simulation.py
 ![Output Analysis](output-graph.png)  
 *Simulation output showing performance metrics such as speed and flow*
 
-
----
-
-### 📁 Files Included
-
-- `traci_signal_control.py` → Python script controlling simulation  
-- `model.sumocfg` → Simulation configuration file  
-- `network-view` → Network definition  
- 
-
 ---
 
 ### 📌 Note
